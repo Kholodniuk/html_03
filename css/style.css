@@ -1,0 +1,179 @@
+/*CSS Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MAIN DOCUMENT */
+
+html{
+  height: 100%;
+}
+
+body{
+  line-height: 1; /* CSS reset option */
+  background-color: #f9f9f9;
+  width: 100%;
+  font-family: "Open Sans";
+  font-size: 13.33px;
+}
+
+.main{
+  width: 1060px;
+  height: 100%;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 50px 45px 60px 45px;
+  border: 0.2px solid black;
+  box-shadow: 0px 0px 30px 1px #dbdbdb;
+}
+.clearfix:after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.menu{
+  height: 40px;
+  border: 1px solid #e1e1e1;
+}
+
+a{
+  text-decoration: none;
+}
+/* HEADER */
+.header li{
+  float: left;
+  display: block;
+  height: 100%;
+}
+
+.header {
+  margin-top: 40px;
+  background-color: #565555;
+}
+
+.listEmptyText{
+  height: 100%;
+  width: 14px;
+}
+.listText a{
+  display: block;
+  height: 38px;
+  line-height: 40px;
+  padding: 0 25px;
+  font-size: 14.67px;
+  color: white;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+.listText a:hover{
+  background-color: #464646;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+}
+
+/* CONTENT */
+
+.sidebar-wrapper{
+  width: 30%;
+  padding-top: 40px;
+  padding-right: 50px;
+  float: left;
+}
+.sidebar li{
+  color: #767575;
+  padding: 13px 23px;
+  border: 1px solid #e1e1e1;
+}
+.sidebar li:hover{
+  color: #2c2c2c;
+  background-color: #f9f9f9;
+  padding-left: 35px;
+}
+.sidebar li a{
+  color: #767575;
+}
+.content{
+  width: 70%;
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.image-wrapper{
+  height: 400px;
+  width: 675px;
+  border: 1px solid #e1e1e1;
+  background-image: url(../img/bike.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+p{
+  padding-top: 40px;
+  line-height: 150%;
+}
+
+/* FOOTER */
+
+.footer{
+background-color: #e1e1e1;
+}
+.leftMenu{
+  float:left;
+}
+.footer li a{
+  color: #767575;
+  line-height: 40px;
+  padding: 0 25px;
+  display: block;
+  height: 40px;
+}
+.footer li a:hover{
+  text-decoration: underline;
+  color: #767575;
+}
+.footer li{
+  color: #767575;
+}
+li.rightMenu{
+  float: right;
+  line-height: 40px;
+  padding-right: 20px;
+}
