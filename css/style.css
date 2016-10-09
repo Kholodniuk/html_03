@@ -90,15 +90,12 @@ a{
   background-color: #565555;
 }
 
-.listEmptyText{
-  height: 100%;
-  width: 14px;
-}
 .listText a{
   display: block;
   height: 38px;
   line-height: 40px;
   padding: 0 25px;
+  margin-right: 14px;
   font-size: 14.67px;
   color: white;
   border-left: 1px solid transparent;
@@ -120,7 +117,6 @@ a{
 }
 .sidebar li{
   color: #767575;
-  padding: 13px 23px;
   border: 1px solid #e1e1e1;
 }
 .sidebar li:hover{
@@ -130,6 +126,8 @@ a{
 }
 .sidebar li a{
   color: #767575;
+	display: block;
+	padding: 13px 23px;
 }
 .content{
   width: 70%;
